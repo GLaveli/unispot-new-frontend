@@ -60,7 +60,7 @@ export default function spot() {
               </Map>
 
               <footer>
-                <a href="">Ver rotas no Google Maps</a>
+                <a href="www.google.com">Ver rotas no Google Maps</a>
               </footer>
             </div>
 
