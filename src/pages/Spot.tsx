@@ -54,7 +54,7 @@ export default function spot() {
                 doubleClickZoom={false}
               >
                 <TileLayer
-                  url={`http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png`}
+                  url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
                 />
                 <Marker interactive={false} icon={mapIcon} position={[-27.6045806, -48.5157196]} />
               </Map>
